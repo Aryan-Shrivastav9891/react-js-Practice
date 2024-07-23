@@ -3,7 +3,7 @@
 ## api link
 
 ```javascript
-let url = `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@2024-03-06/v1/currencies/usd.json`
+let url = `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@2024-03-06/v1/currencies/{currency}.json`
 
 ```
 
@@ -11,7 +11,7 @@ let url = `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@2024-03-06/v1/
 
 ```javascript
 
-function InputBox({
+    function InputBox({
     label,
     
     className = "",
